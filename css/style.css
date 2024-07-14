@@ -7,6 +7,9 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+.hide{
+  display: none;
+}
 .container{
   max-width: 1140px;
   margin: 0px auto;
@@ -36,11 +39,10 @@
 font-size: 4rem;
 font-weight: 700;
 line-height: 4.6875rem;
-letter-spacing: 0%;
 margin-bottom: 1rem;
 }
 .title{
-  font-size: 2.8125rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 3.3125rem;
   margin-bottom: 1rem;
@@ -56,6 +58,12 @@ font-size: 1rem;
 font-weight: 400;
 line-height: 1.625rem;
 margin-bottom: 2rem;
+}
+.font-width-500{
+  font-weight: 500;
+}
+.color-brand{
+  color: rgb(255, 144, 14);
 }
 .btn{
   color: white;
@@ -113,7 +121,19 @@ li a{
   
 }
 /* header section ends */
-
+/* team section starts */
+.team{
+  margin: 7.5rem auto;
+  justify-content: center;
+  align-items: center;
+  gap: 4.375rem;
+}
+.team .team-img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.25rem;
+}
+/* team section ends */
 
 
 
@@ -131,6 +151,20 @@ li a{
   }
   .banner-img{
     max-width: 30rem;
+  }
+  .team{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .team .team-img{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .team-img img{
+    margin: auto;
+    width: 90%;
+  }
+  .team .text-container{
+    margin: 0px 2rem;
   }
 }
 
@@ -150,4 +184,22 @@ li a{
   .banner-img{
     max-width: 45rem;
   }
+  .team .text-container{
+    margin: 0px 2rem;
+  }
+  .team{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .team .text-container{
+    margin: 0px 4rem;
+  }
+  .team .team-img{
+    grid-gap: 0rem;
+  }
+  .team-img img{
+    margin: 1.25rem auto;
+    width: 90%;
+  }
+  
 }
