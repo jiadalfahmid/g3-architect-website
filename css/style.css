@@ -141,12 +141,9 @@ li a{
   margin: 7.5rem auto;
 }
 .facts p{
-  max-width: 600px;
-  margin: 0rem auto 2rem;
+  max-width: 23rem;
 }
 .cards-container{
-  display: flex;
-  grid-template-columns: repeat(4, 1fr);
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
@@ -163,9 +160,28 @@ li a{
   font-weight: 600;
   margin-top: -1.25rem;
 }
-
 /* facts section ends */
-
+/* sponsors section starts */
+.sponsor p{
+  max-width: 37.5rem;
+  margin: 0rem auto 2rem;
+}
+.companies{
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 1.875rem auto 6.375rem;
+}
+.companies img{
+  margin: 1.125rem;
+}
+/* sponsors section ends */
+/* footer section starts */
+.footer{
+  height: 5rem;
+  padding: 1.125rem;
+  border-radius: .5rem;
+}
+/* footer section ends */
 
 
 
