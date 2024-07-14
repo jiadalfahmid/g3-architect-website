@@ -7,3 +7,56 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+.container{
+  max-width: 1140px;
+  margin: 0px auto;
+}
+.bg-color{
+  background: rgba(255, 144, 14, 0.1);
+}
+.flex{
+  display: flex;
+}
+.align-center{
+  text-align: center;
+}
+.box-shadow{
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.dark-1{
+  color: rgb(19, 19, 19);
+}
+.dark-2{
+  color: rgb(66, 66, 66);
+}
+.dark-3{
+  color: rgb(114, 114, 114);
+}
+.btn{
+  color: white;
+  border-radius: 8px;
+  background: rgb(255, 144, 14);
+  padding: 20px 24px;
+  border: 1px solid rgb(255, 144, 14);
+}
+.btn:hover{
+  color: rgb(255, 144, 14);
+  background-color: white;
+}
+
+/* global css ends */
+/* header section starts */
+header .nav-bar{
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 46px 0px;
+}
+.nav-bar ul{
+  list-style: none;
+  gap: 50px;
+}
+li a{
+  text-decoration: none;
+}
+/* header section ends */
