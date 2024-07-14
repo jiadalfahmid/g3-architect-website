@@ -134,6 +134,37 @@ li a{
   grid-gap: 1.25rem;
 }
 /* team section ends */
+/* feature section starts */
+/* feature section ends */
+/* facts section starts */
+.facts{
+  margin: 7.5rem auto;
+}
+.facts p{
+  max-width: 600px;
+  margin: 0rem auto 2rem;
+}
+.cards-container{
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cards-container .card{
+  width: 11.35rem;
+  border: 1px solid rgb(255, 144, 14);
+  border-radius: 8px;
+}
+.card .badge{
+  margin-top: 1.5rem;
+}
+.card>p{
+  font-weight: 600;
+  margin-top: -1.25rem;
+}
+
+/* facts section ends */
 
 
 
@@ -155,6 +186,7 @@ li a{
   .team{
     flex-direction: column;
     gap: 30px;
+    text-align: center;
   }
   .team .team-img{
     grid-template-columns: repeat(1, 1fr);
@@ -165,6 +197,14 @@ li a{
   }
   .team .text-container{
     margin: 0px 2rem;
+  }
+  .facts p{
+    max-width: 25rem;
+  }
+  .cards-container{
+    justify-content: center;
+    gap: 1rem;
+    /* margin-left: 10px; */
   }
 }
 
@@ -193,6 +233,7 @@ li a{
   }
   .team .text-container{
     margin: 0px 4rem;
+    text-align: center;
   }
   .team .team-img{
     grid-gap: 0rem;
@@ -200,6 +241,10 @@ li a{
   .team-img img{
     margin: 1.25rem auto;
     width: 90%;
+  }
+  .cards-container{
+    justify-content: space-around;
+    gap: 2rem;
   }
   
 }
